@@ -1,2 +1,0 @@
-!function(){document.getElementById("search-box"),document.querySelector(".country-list"),document.querySelector(".country-info");(function(n){return fetch("".concat("https://restcountries.com/v3.1/name/").concat(n)).then((function(n){if(!n.ok)throw new Error(n.status);return n.json()})).catch((function(n){return console.log(n)}))})("peru").then((function(n){console.log(lang)}))}();
-//# sourceMappingURL=index.6456e296.js.map
