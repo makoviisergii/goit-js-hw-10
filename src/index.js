@@ -12,7 +12,7 @@ const info = document.querySelector('.country-info');
 
 function getContriesInfo(name) {
   fetchCountries(name).then(data => {
-    console.log(lang);
+    console.log(data);
   });
 }
 
