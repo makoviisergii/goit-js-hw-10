@@ -1,2 +1,0 @@
-document.getElementById("search-box"),document.querySelector(".country-list"),document.querySelector(".country-info");(e=>{const t=new URLSearchParams({fields:"name,capital,population,flags,languages"});return fetch(`https://restcountries.com/v3.1/name/${e}?${t}`).then((e=>{if(!e.ok)throw new Error(e.status);return e.json()})).catch((e=>console.log(e)))})("peru").then((e=>{console.log(e)}));
-//# sourceMappingURL=index.29547884.js.map
