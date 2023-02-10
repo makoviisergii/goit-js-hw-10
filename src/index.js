@@ -1,13 +1,12 @@
 import './css/styles.css';
-
+import Notiflix from 'notiflix';
+import debounce from 'lodash.debounce';
 import { fetchCountries } from './fetchCountries';
 
 const DEBOUNCE_DELAY = 300;
 
 const input = document.getElementById('search-box');
-
 const list = document.querySelector('.country-list');
-
 const info = document.querySelector('.country-info');
 
 function getContriesInfo(name) {
