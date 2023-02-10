@@ -12,5 +12,5 @@ export const fetchCountries = name => {
       }
       return response.json();
     })
-    .catch(error => console.log(error));
+    .catch(error => console.log('Oops, there is no country with that name'));
 };
